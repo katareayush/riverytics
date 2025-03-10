@@ -1,12 +1,11 @@
 import './App.css'
+import Footer from './components/footer'
 
 function App() {
 
 
   return (
-   <div className="text-3xl font-bold">
-    hi
-   </div>
+   <Footer />
   )
 }
 
