@@ -71,12 +71,12 @@ const Navbar = () => {
             <div className="lg:hidden flex items-center mt-3 gap-4">
               <a 
                 href="#" 
-                className="px-5 py-2.5 text-sm font-medium text-primary-strong rounded-lg border border-primary-strong hover:bg-gray-50 w-full text-center">
-                Login
+                className="px-5 py-2.5 text-sm font-medium text-black rounded-lg border border-primary-strong hover:bg-gray-50 w-full text-center">
+                Sign In
               </a>
               <a 
                 href="#" 
-                className="px-5 py-2.5 text-sm font-medium text-white bg-primary rounded-lg hover:bg-primary-strong w-full text-center">
+                className="px-5 py-2.5 text-sm font-medium text-black bg-primary rounded-lg hover:bg-primary-strong w-full text-center">
                 Start free trial
               </a>
             </div>
@@ -85,7 +85,7 @@ const Navbar = () => {
           <div className="hidden lg:flex items-center gap-4">
             <a
               href="/login"
-              className="flex gap-1 text-primary-strong font-medium transition hover:text-primary">
+              className="flex gap-1 text-black font-medium transition hover:text-primary">
               <svg
                 width="23"
                 height="23"
@@ -112,11 +112,11 @@ const Navbar = () => {
                   </clipPath>
                 </defs>
               </svg>
-              {isSignedIn ? 'My Account' : 'Login'}
+              {isSignedIn ? 'My Account' : 'Sign In'}
             </a>
             <a
               href="/trial"
-              className="px-6 py-3 bg-white text-primary-strong font-medium rounded-lg transition hover:bg-primary hover:text-white">
+              className="px-6 py-3 bg-white text-black font-medium rounded-lg transition hover:bg-primary hover:text-white">
               Start free trial
             </a>
           </div>
