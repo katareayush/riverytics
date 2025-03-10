@@ -12,8 +12,11 @@
   "dependencies": {
     "@clerk/clerk-react": "^5.24.1",
     "@tailwindcss/typography": "^0.5.16",
+    "axios": "^1.8.2",
+    "firebase": "^11.4.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router-dom": "^7.3.0",
     "riverlytics": "file:",
     "tailwindcss": "^3.3.5"
   },
