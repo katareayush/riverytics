@@ -4,7 +4,7 @@ import Strategic from '../assets/icon-2.svg';
 import Analysing from '../assets/icon-3.svg';
 import Financial from '../assets/icon-4.svg';
 import Executive from '../assets/icon-5.svg';
-import Speedup from '../assets/icon-6.svg';
+import Speedup from '../assets/icon-6.svg'
 
 const FeaturesCol = () => {
   const features = [
